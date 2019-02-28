@@ -7,7 +7,7 @@ Play tick-tack-toe between you and the machine.
 
 Features:
 
-3x3 playground
+3x3 playground.\n
 You can choose which position you want to put your piece.
 The computer put its piece randomly.
 The game returns the actual disposition of the playboard
