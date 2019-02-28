@@ -7,9 +7,8 @@ Play tick-tack-toe between you and the machine.
 
 Features:
 
-3x3 playground.
-
-You can choose which position you want to put your piece.
+3x3 playground.<br />
+You can choose which position you want to put your piece.<br />
 The computer put its piece randomly.
 The game returns the actual disposition of the playboard
 When there's 3 pieces of the same player in a row, the game declares the winner. 
