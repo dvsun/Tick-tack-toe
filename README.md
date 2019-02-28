@@ -26,4 +26,4 @@ Workflow:
 - Game shows disposition of the playboard.
 - Human put one piece of different color.
 - The game continues until the winning conditions is reach. 
-- The game declare the winner. 
+- The game declares the winner. 
