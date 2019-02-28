@@ -14,6 +14,7 @@ The game returns the actual disposition of the playboard.<br />
 When there's 3 pieces of the same player in a row, the game declares the winner.<br />
 
 Future features:
+
 6x7 playboard.<br />
 2 players.<br />
 
