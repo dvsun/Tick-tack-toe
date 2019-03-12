@@ -15,12 +15,13 @@ def show_play(board):
     print(table)
     print("")
 
+
 def machine_plays():
     # Here I take random values for the machine to play. There's a loop until is chosen a non occupied position.
 
     print("Machine's turn!")
-    ans_x_mach = random.randint(0,2)
-    ans_y_mach = random.randint(0,2)
+    ans_x_mach = random.randint(0, 2)
+    ans_y_mach = random.randint(0, 2)
 
     while playboard[ans_y_mach][ans_x_mach] == "X" or playboard[ans_y_mach][ans_x_mach] == "O":
         ans_x_mach = random.randint(0, 2)
@@ -28,8 +29,9 @@ def machine_plays():
 
     return ans_y_mach, ans_x_mach
 
+
 def player_plays():
-    #Here I ask the player which position she/he wants to play.
+    # Here I ask the player which position she/he wants to play.
 
     answer_x = input("Your turn! \n"
                     "Choose where you want to play. First, choose the horizontal coordinate: 1, 2 or 3: ")
@@ -79,10 +81,9 @@ def player_plays():
 
     return trans_y, answer_x
 
+
 def winning_cond():
     # Here I define the winning conditions
-
-
 
     # Machine wins
 
